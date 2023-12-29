@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito&family=Poppins&display=swap');
+
+body {
+     font-family: 'Poppins', sans-serif;
+     height: 2000px;
+}
+
+/* scrolling navbar */
+.scroll-nav-active {
+     background-color: #fff;
+     border-bottom: 2px solid #e79d36;
+     box-shadow: 1px 1px 11px -1px rgba(1,1,1,0.08);
+}
+
+.text-nav-active {
+     color: black;
+}
+
+/* navbar */
+.nav-item .nav-link {
+     font-size: 18px;
+     margin-left: 5px;
+     margin-right: 5px;
+}
+
+.btn-danger {
+     border-radius: 15px;
+     padding: 10px 20px;
+     font-size: smaller;
+}
+
+#hero {
+     background-image: url("../images/hero-image.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 600px;
+}
+
+.hero-title {
+     padding-top: 200px;
+}
+
+.hero-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-text h1 {
+     font-size: 65px;
+}
+
+/* card-program */
+#program {
+     margin-top: -30px;
+}
+
+#program h1 {
+     font-size: smaller;
+     font-weight: bolder;
+}
+
+
+/* berita */
+.btn-outline-danger {
+     background: transparent;
+     border-radius: 10px;
+     padding: 10px 20px;
+     font-size: smaller;
+     color: red;
+}
+
+/* join */
+
+#join h4 {
+     font-size: 210%;
+     font-weight: bolder;
+}
+
+.stripe {
+     height: 5px;
+     width: 40px;
+     background-color: red;
+}
+
+#join .carousel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+#join .carousel-card {
+    flex-direction: column;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#join .carousel-card li {
+    list-style-type: none;
+}
+
+.carousel-profile {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center;
+    padding: 50px 0; /* Adjust padding as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Regular box shadow */
+}
+
+
+/* download */
+
+#download {
+    background-color: gray;
+    padding-bottom:10px ;
+}
+
+#download h2 {
+    color: #bad6df;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-filter {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Add this line for text alignment */
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+}
+
+.document-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.document-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 50%;
+    margin-left: 20px;
+
+}
+
+.peraturan {
+    background-color: #FAD02E;
+}
+
+.formulir {
+    background-color: #56B4D3;
+}
+
+.brosur {
+    background-color: #4CAF50;
+}
+
+/* video */
+#video {
+     background-image: url("../images/il-bg-video.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 500px;
+}
+
+
+/* foto */
+.section-foto {
+     background-attachment: fixed;
+     background-position: top;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.paralax {
+     background-image: url("../../assets/images/parales.jpeg");
+}
+
+.strip-putih {
+     height: 5px;
+     width: 40px;
+     background-color: #a12727;
+}
+/* hubungi kami */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #56B4D3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #348F50;
+}
+
+
+/* footer */
+footer h2 {
+     font-size: smaller ;
+}
+
+/* responsive */
+@media screen and (min-width:450px) {
+     .hero-text {
+          font-size: 35px;
+          font-weight: 200;
+     }
+     .hero-text h1 {
+          font-size: 20px;
+     }
+}
+
+@media screen and (min-width:550px) {
+     .hero-text {
+          font-size: 35px;
+          font-weight: 200;
+     }
+
+     .hero-text h1 {
+          font-size: 20px;
+     }
+}
+
+
+@media screen and (min-width:800px) {
+     .hero-text {
+          font-size: 35px;
+          font-weight: 200;
+     }
+     .hero-text h1 {
+          font-size: 20px;
+     }
+}
+
+@media screen and (min-width:1100px) {
+     .header-berita {
+          text-decoration-color: inherit / initial;
+          text-overflow: clip;
+          text-underline-offset: initial / inherit;
+     }
+     .bg-success {
+          fill-opacity: calc(#a12727);
+     }
+}
